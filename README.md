@@ -2,4 +2,4 @@
 
 Demo with code-server, Docker, and Amazon ECS.
 
-[python-dev](python-dev/) is published on the Docker Hub as `bencdr/python-dev:latest`. 
+The [python-dev](python-dev/) image is published on the Docker Hub: `bencdr/python-dev:latest` 
