@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  codeserver:
+    image: "bencdr/python-dev:latest"
+    volumes:
+      - project:/home/coder/project
+    entrypoint: ["/usr/bin/entrypoint.sh", "--link", "devdev", "./project"]
+  redis:
+    image: "redis:alpine"
+volumes:
+  project:
